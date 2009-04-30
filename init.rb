@@ -1,1 +1,1 @@
-require 'lightbox_view_helper'
+require 'thickbox_view_helper'

@@ -4,8 +4,12 @@
  * Copyright (c) 2007 cody lindley
  * Licensed under the MIT License: http://www.opensource.org/licenses/mit-license.php
 */
+
+jQuery.noConflict();
+
+jQuery(document).ready(function($){
 		  
-var tb_pathToImage = "images/loadingAnimation.gif";
+var tb_pathToImage = "images/loading.gif";
 
 /*!!!!!!!!!!!!!!!!! edit below this line at your own risk !!!!!!!!!!!!!!!!!!!!!!!*/
 
@@ -316,4 +320,4 @@ function tb_detectMacXFF() {
   }
 }
 
-
+});
